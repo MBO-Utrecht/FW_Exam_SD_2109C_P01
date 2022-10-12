@@ -1,0 +1,43 @@
+Toets FW Stappenplan voor klas 2109C :
+
+    Stap_01: Haal de toets project op vanuit de Github. Je kunt de onderstaande URL    
+	         gebruiken (  ).
+
+    Stap_02: Voer het aangeleverde sql script ( AccountancyMySql.sql ) 
+             uit om Accountancy database aan te maken.
+
+    Stap_03: Pass de connectionString aan in het cofig file met de naam de nieuwe van databse.
+
+    Stap_04: Pass de URL van de applicatie aan in config file met de naam de nieuwe van site.
+
+    Stap_05: Maak class InvoiceModel aan onder map Models om de gegevens vanuit de database naar 
+             de controller weer en heen uit te wisselen.
+
+    Stap_06: Breid de class InvoiceModel uit met methode heet getInvoices 
+	     om alle Invoices vanuit database op te halen.
+
+    Stap_07: Maak class InvoiceEntity aan onder map Entities 
+	     om de geselecteerde Invoice om te zetten naar Invoice object. 
+
+    Stap_08: Maak class InvoiceHelper aan onder map Helpers
+             om alle static help methoden hier te plaatsen.
+ 
+    Stap_09: Breid de InvoiceHelper class aan met nieuwe methode heet mapInvoiceRowToObject
+             om de database row om te zetten naar Invoice object. 
+
+    Stap_10: Breid de InvoiceModel uit met methode heet getInvoiceById 
+             om de geselecteerde Invoice vanuit database bij Id op te halen.
+
+    Stap_11: Maak Invoice controller aan onder map Controllers om de gegevens vanuit de model naar de view weer en heen uit te wisselen.
+
+    Stap_12: Breid de Invoice controller uit met methode heet index 
+	     om alle Invoices vanuit InvoiceModel door te sturen naar index view.
+
+    Stap_13: Breid de Invoice controller uit met methode heet details 
+             om de geselecteerde Invoice vanuit InvoiceModel door te sturen naar details view.
+
+    Stap_14: Maak nieuwe view aan heet index onder map Views/Invoice om alle 
+             Invoices te tonen.
+
+    Stap_15: Maak nieuwe view aan heet details onder map Views/Invoice om de geselecteerde Invoice te tonen.
+
